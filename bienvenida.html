@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head> 
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="estilos.css">
+
+        <title>Bienvenida</title>
+    </head>
+    <body>
+        <h1>Floreria Canelitas</h1>
+        <p>Nuestro establecimiento esta dedicado a la venta de flores
+            naturales y arreglos florales. Ofrecemos productos para decorar
+            espacios y celebrar ocaciones especiales como cumpleaños, bodas,
+            aniversarios y graduaciones.
+        </p>
+        <h2>Nuestros productos</h2>
+        <div class="producto">
+            <img src="Rosas.jpg" alt="rosas" height="100" width="100">
+            <h2>Rosas</h2>
+            <p>$420 por docena</p>
+        </div>
+        <br>
+        <div class="producto">
+            <img src="Tulipanes.jpg" alt="tulipanes" height="100" width="100">
+            <h2>Tulipanes</h2>
+            <p>$720 por docena</p>
+        </div>
+        <br>
+        <div class="producto">
+            <img src="Claveles.jpg" alt="claveles" height="100" width="100">
+            <h2>Claveles</h2>
+            <p>$264 por docena</p>
+        </div>
+        <br>
+        <div class="producto">
+            <img src="Lirios.jpg" alt="lirios" height="100" width="100">
+            <h2>Lirios</h2>
+            <p>$480 por docena</p>
+        </div>
+        <br>
+        <div class="producto">
+            <img src="Margaritas.jpg" alt="margaritas" height="100" width="100">
+            <h2>Margaritas</h2>
+            <p>$250 por docena</p>
+        </div>
+        <br>
+        <div class="producto">
+            <img src="Orquideas.jpg" alt="orquideas" height="100" width="100">
+            <h2>Orquideas</h2>
+            <p>$1200 la docena</p>
+        </div>
+        <br>
+        <div class="producto">
+            <img src="Hortensias.jpg" alt="hortensias" height="100" width="100">
+            <h2>Hortensias</h2>
+            <p>$1920 por docena</p>
+        </div>
+        <h2>Comprar Articulos</h2>
+        <form>
+            <label>Rosas</label>
+        <input type="number" id="rosas" placeholder="Cantidad">
+            <p id="totalRosas"></p>
+        <br>
+        <label>Tulipanes</label>
+        <input type="number" id="tulipanes" placeholder="Cantidad">
+            <p id="totalTulipanes"></p>
+        <br>
+        <label>Claveles</label>
+        <input type="number" id="claveles" placeholder="Cantidad">
+            <p id="totalClaveles"></p>
+        <br>
+        <label>Lirios</label>
+        <input type="number" id="lirios" placeholder="Cantidad">
+            <p id="totalLirios"></p>
+        <br>
+        <label>Margaritas</label>
+        <input type="number" id="margaritas" placeholder="Cantidad">
+            <p id="totalMargaritas"></p>
+        <br>
+        <label>Orquideas</label>
+        <input type="number" id="orquideas" placeholder="Cantidad"> 
+            <p id="totalOrquideas"></p>
+        <br>
+        <label>Hortensias</label> 
+        <input type="number" id="hortensias" placeholder="Cantidad">
+            <p id="totalHortensias"></p>
+        <br>
+          <button type="button" onclick="Calcular()">Comprar</button>
+            <h3 id="total"></h3>
+    </form>
+        <script src="script.js"></script>
+    </body>
+</html>
